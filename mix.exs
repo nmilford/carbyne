@@ -16,6 +16,6 @@ defmodule Carbyne.Mixfile do
   # Returns the list of dependencies in the format:
   # { :foobar, "~> 0.1", git: "https://github.com/elixir-lang/foobar.git" }
   defp deps do
-    [{ :socket, "0.1.2",  github: "meh/elixir-socket" }]
+    [{ :socket, "0.1.2", [github: "meh/elixir-socket", tag: "v0.1.2"]}]
   end
 end
